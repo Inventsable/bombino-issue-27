@@ -1,4 +1,4 @@
-# Issue 27
+# [Issue 27](https://github.com/Inventsable/bombino/issues/27#issuecomment-999967507)
 
 This turns out to be a problem with conflicting dependencies again, though more specifically to do with my admittedly liberal (and I realize now to be careless) use of "@latest" in package.json values which it turns out has the lowest installation priority over any other syntax like `^1.0.0` or `~1.0.0` and can be very easily out-prioritized in lieu of older versions of packages.
 
